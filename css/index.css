@@ -1,30 +1,9 @@
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-table{
-    border-spacing: 0;
-}
-.navbar-items{
-    margin-left: .5em;
-    margin-right: .5em;
-}
 /* standard view */
 #main-page{
     font-family: "Raleway", Helvetica, sans-serif;
 }
 @media (min-width: 800px){
-
-    html{
-        font-size: calc(.5vw + .5vh);
-        overflow-x: hidden;
-    }
 
     .headContainers{
         width: 50vw;
@@ -56,9 +35,7 @@ table{
         bottom: 10%;
     }
 
-    .navbar-left-mar{
-        margin-left: 1em;
-    }
+
     /* body */
     #headingParagraph{
         text-align: left;
@@ -72,10 +49,7 @@ table{
 }
 /* small screen view */
 @media (max-width: 801px){
-    html{
-        font-size: calc(.9vw + .1vh);
-        /* background-color: rgb(206, 84, 203); */
-    }
+
     .headContainers{
         width: 100vw;
         height: 100vw;
@@ -96,20 +70,12 @@ table{
         top: 100vw;
     }
     /* parts of the right  */
-    .navbar{
-        display: block;
-        position: relative;
-        
-        text-align: center;
-        font-size: 235%;
-    }
+
     #topnav{
         top: 3.05em;
         left: 0;
         bottom: 10%;
     }
-
-
 
     /* body */
     #headingParagraph{
@@ -187,16 +153,4 @@ button{
     font-weight: bold;
     padding: .5em 1em;
     
-}
-
-#mainNav{
-    TEXT-ALIGN: center;
-    font-size: 2em;
-    position: fixed;
-    z-index: 2;
-    display: block;
-    padding-top: 1em;
-    padding-bottom: .5em;
-    width: 100%;
-    background-color: white;
 }

@@ -1,0 +1,108 @@
+
+
+
+.clouds{
+    position: absolute;
+    width: 100vw;
+    z-index: 0;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }
+
+@keyframes slideToLeft {
+    0% {
+        transform: translateX();
+        opacity: 1;
+
+        
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+
+        
+    }
+}
+@keyframes slideToRight {
+    0% {
+        transform: translateX();
+        opacity: 1;
+
+        
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+
+        
+    }
+}
+
+
+@keyframes pillarRise {
+    0% {
+        /* transform: translateY(100%); */
+        opacity: 1;
+        
+    }
+
+    100%{
+        /* transform: translateY(0); */
+        opacity: 0;
+    }
+}
+
+.left{
+    animation-name: slideToLeft;
+    animation-duration: 4s;
+    /* display: none; */
+    opacity: 0;
+}
+
+.right{
+    animation-name: slideToRight;
+    animation-duration: 4s;
+    /* display: none; */
+    opacity: 0;
+}
+#pillarWrap{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    animation-name: pillarRise;
+    animation-duration: 2s;
+    opacity: 0;
+}
+.pillarWrap{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 1;
+}
+
+#pillar{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    bottom: 0;
+    left: 25vw;
+    
+}
+#pillarText{
+    position: absolute;
+    bottom: 50vh;
+    width: 50vw;
+    font-size: 500%;
+    left: 25vw;
+    text-align: center;
+}
+
+#main{
+    background-color: red;
+    position: relative;
+}
+
