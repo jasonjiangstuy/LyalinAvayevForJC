@@ -74,6 +74,7 @@ setTimeout( function() {
 
     setTimeout( function() {
         $('body').removeClass('stop-scrolling');
+        $('#pillarWrap').hide();
         $("#main").show('slow');
         $('#mainNav').show('slow')
     }, 1100);

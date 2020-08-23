@@ -1,5 +1,7 @@
 
-
+#mainNav{
+    position: sticky;
+}
 
 .clouds{
     position: absolute;
@@ -102,7 +104,8 @@
 }
 
 #main{
-    background-color: red;
+    /* background-color: red; */
     position: relative;
+    margin: 6em 10em;
 }
 

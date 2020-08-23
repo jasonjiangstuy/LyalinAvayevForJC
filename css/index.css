@@ -113,30 +113,7 @@
     padding: 3.5em;
 }
 
-.main-header{
-    font-size: 225%;
-    position: relative;
-    display: block;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.semi-header{
-    font-size: 150%;
-    position: relative;
-    display: block;
-    font-weight: bold;
-    text-transform: uppercase;
-}
 
-.semi-header::after, .main-header::after{
-    display: block;
-    margin-bottom: 1em;
-    content: "____";
-}
-.standard-text{
-    font-size: 150%;
-    position: relative;
-}
 /* table for links to other pages */
 #portalTable{
     margin: 2.5em 4.5em;

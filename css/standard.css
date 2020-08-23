@@ -25,6 +25,9 @@ table{
     padding-bottom: .5em;
     width: 100%;
     background-color: white;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
 }
 
 @media (min-width: 800px){
@@ -63,4 +66,29 @@ table{
         left: 0;
         bottom: 10%;
     }
+}
+
+.main-header{
+    font-size: 225%;
+    position: relative;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.semi-header{
+    font-size: 150%;
+    position: relative;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.semi-header::after, .main-header::after{
+    display: block;
+    margin-bottom: 1em;
+    content: "____";
+}
+.standard-text{
+    font-size: 150%;
+    position: relative;
 }
