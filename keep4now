@@ -1,0 +1,74 @@
+<table id="portalTable" class="table">
+    <tr class="portalTableEle tr">
+      <td class="portalTableEle td" style="width: 50%;">
+        <span class="semi-header" style="font-family: 'Lato', sans-serif;">
+          SHE WONDERED IF THE NOTE HAD REACHED HIM
+        </span>
+        <span class="standard-text">
+          She scolded herself for not handing it to him in person.
+          She trusted her friend, but so much could happen.
+          She waited impatiently for word.
+        </span><br><br>
+        <button class="button is-medium is-outlined is-active">MORE</button>
+      </td>
+      <td class="portalTableEle tr" style="width: 50%;">
+        <span class="semi-header" style="font-family: 'Lato', sans-serif;">
+          SHE WONDERED IF THE NOTE HAD REACHED HIM
+        </span>
+        <span class="standard-text">
+          She scolded herself for not handing it to him in person.
+          She trusted her friend, but so much could happen.
+          She waited impatiently for word.
+        </span><br><br>
+        <button class="button is-medium is-outlined is-active">MORE</button>
+      </td>
+    </tr>
+    <tr class="portalTableEle tr">
+      <td class="portalTableEle td" style="width: 50%;">
+        <span class="semi-header" style="font-family: 'Lato', sans-serif;">
+          SHE WONDERED IF THE NOTE HAD REACHED HIM
+        </span>
+        <span class="standard-text">
+          She scolded herself for not handing it to him in person.
+          She trusted her friend, but so much could happen.
+          She waited impatiently for word.
+          </span><br><br>
+        <button class="button is-medium is-outlined is-active">MORE</button>
+      </td>
+      <td class="portalTableEle td" style="width: 50%;">
+        <span class="semi-header" style="font-family: 'Lato', sans-serif;">
+          SHE WONDERED IF THE NOTE HAD REACHED HIM
+        </span>
+        <span class="standard-text">
+          She scolded herself for not handing it to him in person.
+          She trusted her friend, but so much could happen.
+          She waited impatiently for word.
+        </span><br><br>
+        <button class="button is-medium is-outlined is-active">MORE</button>
+      </td>
+    </tr>
+    <tr class="portalTableEle tr">
+      <td class="portalTableEle td" style="width: 50%;">
+        <span class="semi-header" style="font-family: 'Lato', sans-serif;">
+          SHE WONDERED IF THE NOTE HAD REACHED HIM
+        </span>
+        <span class="standard-text">
+          She scolded herself for not handing it to him in person.
+          She trusted her friend, but so much could happen.
+          She waited impatiently for word.
+        </span><br><br>
+        <button class="button is-medium is-outlined is-active">MORE</button>
+      </td>
+      <td class="portalTableEle td" style="width: 50%;">
+        <span class="semi-header" style="font-family: 'Lato', sans-serif;">
+          SHE WONDERED IF THE NOTE HAD REACHED HIM
+        </span>
+        <span class="standard-text">
+          She scolded herself for not handing it to him in person.
+          She trusted her friend, but so much could happen.
+          She waited impatiently for word.
+        </span><br><br>
+        <button class="button is-medium is-outlined is-active">MORE</button>
+      </td>
+    </tr>
+  </table>
