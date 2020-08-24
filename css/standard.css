@@ -75,6 +75,7 @@ table{
     display: block;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: "Raleway", Helvetica, sans-serif;
 }
 .semi-header{
     font-size: 150%;
@@ -82,6 +83,7 @@ table{
     display: block;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: "Raleway", Helvetica, sans-serif;
 }
 
 .semi-header::after, .main-header::after{
@@ -92,6 +94,7 @@ table{
 .standard-text{
     font-size: 150%;
     position: relative;
+    font-family: "Raleway", Helvetica, sans-serif;
 }
 
 a{

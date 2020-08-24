@@ -1,0 +1,91 @@
+#mainTextBackground{
+    width: 200%;
+    height: 6em;
+    left: -50%;
+    top: calc(50% - 3em + 10rem);
+    z-index: 11;
+    box-shadow: none;
+    background-color: white;
+    opacity: .8;
+    filter: blur(4px);
+  }
+  #main-Title{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 400%;
+    text-align: center;
+    width: 150%;
+    left: -25%;
+    height: 1em;
+    top: calc(50% - .5em + 10rem);
+    opacity: 1;
+    z-index: 11;
+
+  }
+.design {
+    position: relative;
+    height: 20em;
+    width: 20em;
+}
+
+.design > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 10em;
+}
+
+.rotated-border {
+    box-sizing: border-box;   
+    border-top: 15px #eb311f solid;
+    border-bottom: 15px #eb311f solid;
+}
+.bot{
+    z-index: -1;
+    transform: rotate(45deg);
+    box-shadow: 0 30px 20px -20px #eb311f,
+    0 -30px 20px -20px #eb311f, 
+    inset 0 20px 15px -15px #eb311f,
+    inset 0 -20px 15px -15px #eb311f;
+
+}
+.top{
+    z-index: 1;
+    transform: rotate(135deg);
+    box-shadow: 0 30px 20px -20px #eb311f,
+    0 -30px 20px -20px #eb311f, 
+    inset 0 20px 15px -15px #eb311f,
+    inset 0 -20px 15px -15px #eb311f;
+}
+
+
+/* Establishes our grid */
+.grid {
+    display: grid;
+    grid: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+#quote{
+    padding-top: 5em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: none;
+}
+#quote::after{
+    content: '~ Julius Caesar';
+}
+
+#quote::before{
+    font-size: 280%;
+    content: "\"";
+}
+
+li{
+    font-size: 250%;
+}
+
+#showNav{
+    margin: 5em 10em;
+}
