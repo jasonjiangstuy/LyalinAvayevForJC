@@ -28,6 +28,7 @@
         text-align: center;
         font-size: 165%;
         display: block;
+        font-weight: lighter;
     }
     #topnav{
         top: .25em;
