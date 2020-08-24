@@ -1,4 +1,6 @@
 $(function(){
+    $('.2').hide();
+    $('.3').hide();
     var currentStage = '1';
     function Return2(e){
         return(e[0])
@@ -21,26 +23,17 @@ $(function(){
         }
         
     })
-    // function click1(){
-    //     if (currentStage != '1'){
-    //         ChangeStage('1');
-    //     }
-    // }
-    // function click2(){
-    //     if (currentStage != '2'){
-    //         ChangeStage('2');
-    //     }
-    // }
-    // function click3(){
-    //     if (currentStage != '3'){
-    //         ChangeStage('3');
-    //     }
-    // }
 
     function ChangeStage(x){
-        $('#' + currentStage).removeClass('active')
+        $('#' + currentStage).removeClass('active');
+        $('.' + currentStage).toggle('fold', {size: 100 , horizFirst: true},1500, function(){
+            $('.' + x).slideToggle();
+        });
         currentStage = x;
         $('#' + x).addClass('active');
+        
+        
+        
         console.log(x);
     }
 
