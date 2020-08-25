@@ -21,7 +21,7 @@ table{
     position: fixed;
     z-index: 2;
     display: block;
-    padding-top: 1em;
+    padding-top: 1rem;
     /* padding-bottom: .5em; */
     width: 100%;
     background-color: white;
