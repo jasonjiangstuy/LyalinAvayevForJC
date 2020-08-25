@@ -32,6 +32,7 @@ table{
 }
 
 #mainNav{
+    top: 0;
     TEXT-ALIGN: center;
     font-size: 2em;
     position: fixed;
