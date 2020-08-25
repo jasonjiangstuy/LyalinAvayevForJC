@@ -1,0 +1,50 @@
+#body{
+    top: 8rem;
+    position: relative;
+    padding: 0 5rem;
+}
+
+#photos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#expandDiv{
+    position: fixed;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0em 10em;
+}
+#blur{
+    position: absolute;
+    filter: blur(10px);
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .8;
+}
+#expandDiv > *{
+    z-index: 3;
+
+}
+#targetImg{
+    position: relative;
+    width: 30%;
+    
+    
+}
+#targetText{
+    width: 30%;
+    font-size: 211%;
+    background: white;
+    padding: 1em;
+    border: 1em solid white;
+    border-radius: 3em;
+}
