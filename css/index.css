@@ -28,6 +28,7 @@
         text-align: center;
         font-size: 165%;
         display: block;
+        font-weight: lighter;
     }
     #topnav{
         top: .25em;
@@ -121,7 +122,7 @@
 .portalTableEle{
     padding: 3.5em;
 }
-button{
+/*button{
     display: block;
     margin-top: 2em;
     background-color: rgb(206, 84, 203);
@@ -130,4 +131,4 @@ button{
     font-weight: bold;
     padding: .5em 1em;
     
-}
+}*/
