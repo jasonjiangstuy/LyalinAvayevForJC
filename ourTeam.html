@@ -5,19 +5,31 @@
       <title>LYALIN ABAYEV for JC</title>
       <link rel="stylesheet" href="css/standard.css">
       <link rel="stylesheet" href="css/ourTeam.css">
-   </head>
-   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
+      <link rel="stylesheet" href="css/team_sass.css">
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-   <script src="js/ourTeam.js"></script>
-   <body style="margin: 0;">
+      <script src="js/ourTeam.js"></script>
       <meta name="author" content="Webmaster Jason Jiang, jasonjiangny@gmail.com">
-      <meta name="description" content="Daniel Lyalin and Emmanual Abayev for Junior Caucus Team">
-      <meta name="keywords" content="Stuyvesant Daniel Lyalin Emmanual Abayev Junior Caucus SU">
+      <meta name="description" content="Daniel Lyalin and Emmanuel Abayev for Junior Caucus Team">
+      <meta name="keywords" content="Stuyvesant Daniel Lyalin Emmanuel Abayev Junior Caucus SU">
       <meta name="viewport" content="width=device-width,initial-scale=1">
+      <style>
+         .semi-header{
+                font-size: 80%;
+                position: relative;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            .semi-header::after{
+                display: block;
+                content: "____";
+            }
+      </style>
+   </head>
+   <body>
       <!-- main nav bar -->
-      <div id="mainNav">
+      <!--<div id="mainNav">
          <a href="index.html">
             <h1>LYALIN ABAYEV</h1>
          </a>
@@ -27,11 +39,27 @@
             <a href="ourExperience.html"><span class="navbar-items "><b>Our Experience</b></span></a>|
             <a href="contactUs.html"><span class="navbar-items "><b>Contact Us</b></span></a>|
             <a href="projects.html"><span class="navbar-items "><b>Projects</b></span></a>
-        </nav> 
-      </div>
+        </nav> -->
+        <nav class="navbar">
+         <div class="container">
+           <div class="navbar-brand">
+             <a class="navbar-item navbar-brand semiheader" href="index.html">Daniel Lyalin and Emmanuel Abayev for Junior Caucus</a>
+           </div>
+           <div id="navMenu" class="navbar-menu">
+             <div class="navbar-end">
+               <a href="philosophy.html" class="navbar-item">Our Philosophy |</a>
+               <a class="navbar-item" href="ourTeam.html" style="color: black;">Our Team |</a>
+               <a class="navbar-item" href="ourExperience.html" style="color: black;">Our Experience |</a>
+               <a class="navbar-item" href="" style="color: black;">Our Platform |</a>
+               <a class="navbar-item" href="contactUs.html" style="color: black;">Contact Us |</a>
+               <a href="projects.html" class="navbar-item">Projects</a>
+             </div>
+           </div>
+         </div>
+       </nav>
       <div id="main">
          <span class="main-header">
-         Check Our Our Team!!
+         Check Our Our Team
          </span>
          <div id='flow'>
             <ul id="timeline">
@@ -51,12 +79,12 @@
                </label>
             </div>
          </div>
-
-         <div class="1">
+         <div class="1" style="padding:0%; margin: 0%;">
             <div class=" tabContent">
                <!-- <span class="semi-header"> Our Canadites </span> -->
                <img src="imgs/dummyPic.gif" class='imageBox'alt="">
-               <div class="textBox standard-text">
+               <div class="textBox standard-text"><br>
+                  <h1 class="title is-3 semi-header">Daniel Lyalin</h1>
                   "It was so great to hear from you today and it was such weird timing," 
                   he said. "This is going to sound funny and a little strange, 
                   but you were in a dream I had just a couple of days ago. 
@@ -65,18 +93,22 @@
                </div>
             </div>
         
-            <div class=" tabContent">
+            <br>
+            <div class=" tabContent columns">
                 <!-- <span class="semi-header"> Our Canadites </span> -->
-                <img src="imgs/dummyPic.gif" class='imageBox'alt="">
-                <div class="textBox standard-text">
+                <div class="column is-6">
+                  <img src="photos/ephotos/e5.jpg" alt="Emmanuel Abayev">
+                </div>
+                <div class="textBox standard-text column is-6"><br>
+                   <h1 class="title is-3 semi-header">Emmanuel Abayev</h1>
                "It was so great to hear from you today and it was such weird timing," 
                he said. "This is going to sound funny and a little strange, 
                but you were in a dream I had just a couple of days ago. 
                I'd love to get together and tell you about it if you're up for a cup of coffee,"
                he continued, laying the trap he'd been planning for years.
                 </div>
-            </div>
         </div>
+      </div>
 
         <div class="2">
             <div class=" tabContent">
@@ -122,5 +154,5 @@
         </div>
 
       </div>
-      </div>
+   </body>
 </html>
