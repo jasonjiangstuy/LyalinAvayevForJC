@@ -1,4 +1,17 @@
 
+.semi-header{
+  font-size: 80%;
+  position: relative;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.semi-header::after{
+  display: block;
+  content: "____";
+}
+
+
 #main{
     width: calc(100vw - 30em);
     padding: 9rem 15em 0 15em;
@@ -88,4 +101,9 @@ ul {
     -webkit-box-shadow: 10px 10px 38px -18px rgba(122,121,122,1);
     -moz-box-shadow: 10px 10px 38px -18px rgba(122,121,122,1);
     box-shadow: 10px 10px 38px -18px rgba(122,121,122,1);
+  }
+
+  .Daisy {
+    height: 630px;
+    width: 565px;
   }
